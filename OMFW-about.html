@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oh My F* Watch</title>
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="OMFW.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light py-4 fixed-top sticky-top">
+      <div class="container">
+        <a class="navbar-brand d-flex justify-content-around align-items-center order-sm-0" href="#">OMFW.</a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse order-sm-1" id="navMenu">
+          <ul class="navbar-nav mx-auto justify-content-center text-center">
+            <li class="nav-item active px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="/MiniProject/OMFW-home.html">My F Home</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="/MiniProject/OMFW-home.html#collection">My F Shop</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#about">About F Us</a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input class="px-2 search" type="search" placeholder="What?" />
+            <button class="btnsrc" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- breadcrumb -->
+    <div class="container">
+      <div class="row pt-3">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/MiniProject/OMFW-home.html"  style="text-decoration: none; color: black">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page"><a href="/MiniProject/OMFW-about.html" style="text-decoration: none; color: burlywood">About</a></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- blog -->
+    <section id="offers" class="py-5">
+      <div class="container">
+        <div class="row d-flex align-items-center text-center">
+          <div class="offers-content">
+            <span class="text-white">Discount Up To 30%</span>
+            <h2 class="mt-2 mb-4 text-white">Grand New Year Sale!</h2>
+            <a href="/MiniProject/OMFW-home.html#collection" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row gy-lg-5 aligh-item-center">
+          <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+            <div class="title pt-3 pb-5">
+              <h2 class="position-relative d-inline-block ms-4">ABOUT</h2>
+            </div>
+            <p class="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque dolorum ipsa incidunt, facere, consequuntur id, quae sequi accusamus nostrum distinctio repellat perferendis ut.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam accusantium perspiciatis harum fugiat placeat quidem voluptatibus similique esse eligendi, pariatur nostrum quia consectetur veniam doloremque adipisci
+              aliquam autem quasi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi aperiam praesentium necessitatibus rerum, soluta nesciunt, est neque facilis commodi nulla earum dignissimos quisquam? Quibusdam sapiente,
+              dolores optio pariatur libero accusamus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam accusantium perspiciatis harum fugiat placeat quidem voluptatibus similique esse eligendi, pariatur nostrum quia consectetur veniam doloremque adipisci
+              aliquam autem quasi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi aperiam praesentium necessitatibus rerum, soluta nesciunt, est neque facilis commodi nulla earum dignissimos quisquam? Quibusdam sapiente,
+              dolores optio pariatur libero accusamus.
+            </p>
+          </div>
+          <div class="col-lg-6 order-lg-0">
+            <video src="VIDEO/OH MY WATCH..mp4" autoplay muted loop class="img-fluid"></video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- newsletter -->
+    <section id="newsletter" class="py-5">
+      <div class="container">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <div class="title text-center pt-3 pb-5">
+            <h2 class="position-relative d-inline-block ms-4">SUBSCRIBE</h2>
+          </div>
+
+          <p class="text-center text-muted">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolores unde ut illo architecto dolor dolorum quaerat sint, tempora modi vero, eligendi, dolorem ad. Harum aliquam neque illo deserunt mollitia. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Aut in repellat voluptatum veritatis cupiditate eum perspiciatis, itaque incidunt eligendi accusamus enim voluptate, est ullam dignissimos odio at doloremque a non.
+          </p>
+          <a href="/MiniProject/OMFW-login.html" class="btn">Login</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="row text-white g-4">
+          <div class="col-md-6 col-lg-6">
+            <a href="OMW.html" class="text-decoration-none brand text-white">OMFW.</a>
+            <p class="text-white text-muted mt-3">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, odio culpa pariatur harum neque atque, ad natus veniam ducimus quod vel inventore, repudiandae tenetur velit saepe cumque nostrum rem reiciendis!
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-3">
+            <h5 class="fw-light mb-3">Contact Us</h5>
+            <div class="d-flex justify-content-start align-items-start my-2">
+              <span class="">
+                <i class="fas fa-map-marked-alt"></i>
+              </span>
+              <span class="fw-light"> 88 Street, Singapore </span>
+            </div>
+            <div class="d-flex justify-content-start align-items-start my-2">
+              <span class="">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="fw-light"> omfw.support@omfw.com </span>
+            </div>
+            <div class="d-flex justify-content-start align-items-start my-2">
+              <span class="">
+                <i class="fas fa-phone-alt"></i>
+              </span>
+              <span class="fw-light"> +65 123 4567 89 </span>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-lg-3">
+            <h5 class="fw-light mb-3">Follow Us</h5>
+            <div>
+              <ul class="list-unstyled d-flex">
+                <li>
+                  <a href="" class="text-white text-decoration-none fs-4 me-4"> <i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="" class="text-white text-decoration-none fs-4 me-4"> <i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="" class="text-white text-decoration-none fs-4 me-4"> <i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="" class="text-white text-decoration-none fs-4 me-4"> <i class="fab fa-tiktok"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+    <!-- custom js -->
+    <script src="OMW.js"></script>
+  </body>
+</html>

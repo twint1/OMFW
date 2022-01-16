@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oh My F* Watch</title>
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="OMFW.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light py-4 fixed-top sticky-top">
+      <div class="container">
+        <a class="navbar-brand d-flex justify-content-around align-items-center order-sm-0" href="#">OMFW.</a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse order-sm-1" id="navMenu">
+          <ul class="navbar-nav mx-auto justify-content-center text-center">
+            <li class="nav-item active px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#header">My F Home</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#collection">My F Shop</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="/MiniProject/OMFW-about.html">About F Us</a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input class="px-2 search" type="search" placeholder="What?" />
+            <button class="btnsrc" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 100px">
+      <div class="container h-100 d-flex align-items-center carousel-inner">
+        <div class="text-start carousel-item active" data-bs-interval="5000">
+          <h4 class="text-white fs-3 fw-lighter">Christmas and New Year Offer</h4>
+          <h2 class="text-white fs-2 fw-normal">Best value deals</h2>
+          <h1 class="text-uppercase fs-1 fw-bold">On all products</h1>
+          <p class="text-white fs-5 fw-lighter">Claim the coupons & get the cashback!</p>
+          <a href="/MiniProject/OMFW-about.html#offer" class="btn mt-3">Check Now</a>
+        </div>
+        <div class="text-start carousel-item" data-bs-interval="5000">
+          <h4 class="text-white fs-3 fw-lighter">Sign up for F Membership</h4>
+          <h2 class="text-white fs-2 fw-normal">Oh Holy Watch</h2>
+          <h1 class="text-uppercase fs-1 fw-bold">2 Years free risk</h1>
+          <p class="text-white fs-5 fw-lighter">Free rubber strap for selected item!</p>
+          <a href="/MiniProject/OMFW-Login.html" class="btn mt-3">Sign Up Now</a>
+        </div>
+      </div>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </header>
+
+    <div class="alert alert-warning text-center" role="alert">No more "F Word" pals, Why not "F Watch" on OMFW. Let's get Hyped!</div>
+
+    <!-- collection -->
+    <section id="collection" class="py-5">
+      <div class="container">
+        <div class="title text-center">
+          <h2 class="position-relative d-inline-block fw-normal">BEST COLLECTION</h2>
+        </div>
+
+        <div class="row g-0">
+          <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+            <button type="button" class="btn m-2 text-dark active-filter-btn" data-filter="*">All</button>
+            <button type="button" class="btn m-2 text-dark" data-filter=".breitling">Breitling</button>
+            <button type="button" class="btn m-2 text-dark" data-filter=".rolex">Rolex</button>
+            <button type="button" class="btn m-2 text-dark" data-filter=".tagheuer">TAG Heuer</button>
+            <button type="button" class="btn m-2 text-dark" data-filter=".tissot">Tissot</button>
+            <button type="button" class="btn m-2 text-dark" data-filter=".tudor">Tudor</button>
+          </div>
+
+          <div class="collection-list mt-4 row gx-0 gt-3">
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center breitling">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/breitling1.jpeg" class="w-100" />
+              </div>
+              <p class="my-1">Breitling Avenger Automatic 43mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center breitling">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/breitling2.jpg" class="w-100" />
+              </div>
+              <p class="my-1">Breitling Superocean Automatic 42mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center breitling">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/breitling3.webp" class="w-100" />
+              </div>
+              <p class="my-1">Breitling Super Chronomat Automatic 44mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center breitling">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/breitling4.jpg" class="w-100" />
+              </div>
+              <p class="my-1">Breitling Premier Chronograph Automatic 42mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center breitling">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/breitling5.jpeg" class="w-100" />
+              </div>
+              <p class="my-1">Breitling Navitimer Chronograph Automatic 43mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center breitling">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/breitling6.jpg" class="w-100" />
+              </div>
+              <p class="my-1">Breitling Chronomat Automatic 42mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center rolex">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/rolex1.jpg" class="w-100" />
+              </div>
+              <p class="my-1">Rolex Submariner Automatic 41mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center rolex">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/rolex2.jpg" class="w-100" />
+              </div>
+              <p class="my-1">Rolex Cosmograh Daytona Automatic 40mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center rolex">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/rolex3.jpg" class="w-100" />
+              </div>
+              <p class="my-1">Rolex Yatch Master Automatic 42mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center rolex">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/rolex4.jpg" class="w-100" />
+              </div>
+              <p class="my-1">Rolex Yatch Master II Automatic 44mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center tagheuer">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/tagheuer1.jpg" class="w-100" />
+              </div>
+              <p class="my-1">TAG Heuer Aquaracer Automatic 43mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center tagheuer">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/tagheuer2.jpg" class="w-100" />
+              </div>
+              <p class="my-1">TAG Heuer Carrera Automatic 44mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center tagheuer">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/tagheuer3.jpg" class="w-100" />
+              </div>
+              <p class="my-1">TAG Heuer Formula 1 Automatic 43mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center tagheuer">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/tagheuer4.jpg" class="w-100" />
+              </div>
+              <p class="my-1">TAG Heuer Carrera Calibre Automatic 43mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center tissot">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/tissot1.webp" class="w-100" />
+              </div>
+              <p class="my-1">Tissot Seastar Automatic 43mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center tissot">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/tissot2.jpg" class="w-100" />
+              </div>
+              <p class="my-1">Tissot Couturier Automatic 43mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center tissot">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/tissot3.jpg" class="w-100" />
+              </div>
+              <p class="my-1">Tissot Gentleman Automatic 40mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center tissot">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/tissot4.png" class="w-100" />
+              </div>
+              <p class="my-1">Tissot PRC 200 Automatic 44mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center tissot">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/tissot5.webp" class="w-100" />
+              </div>
+              <p class="my-1">Tissot T-Race Automatic 45mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center tudor">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/tudor1.jpg" class="w-100" />
+              </div>
+              <p class="my-1">Tudor Black Bay Automatic 41mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center tudor">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/tudor2.jpg" class="w-100" />
+              </div>
+              <p class="my-1">Tudor Pelagos Automatic 41mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2 text-center tudor">
+              <div class="collection-img position-relative overflow-hidden">
+                <img src="IMG/tudor3.jpg" class="w-100" />
+              </div>
+              <p class="my-1">Tudor Royal Automatic 41mm</p>
+              <span class="fw-bold">$ 999</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- modal -->
+    <div class="modal fade" id="gallery-popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Product Description</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./IMG/breitling1.jpeg" class="modal-img" alt="" />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consectetur explicabo laboriosam vel delectus officiis deserunt illum ipsum consequatur aliquid quaerat, ea rem animi ducimus et! At natus repudiandae esse.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Wishlist</button>
+            <button type="button" class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      document.addEventListener("click", function (e) {
+        if (e.target.classList.contains("w-100")) {
+          const src = e.target.getAttribute("src");
+          document.querySelector(".modal-img").src = src;
+          const myModal = new bootstrap.Modal(document.getElementById("gallery-popup"));
+          myModal.show();
+        }
+      });
+    </script>
+
+    <!-- footer -->
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="row text-white g-4">
+          <div class="col-md-6 col-lg-6">
+            <a href="OMW.html" class="text-decoration-none brand text-white">OMFW.</a>
+            <p class="text-white text-muted mt-3">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, odio culpa pariatur harum neque atque, ad natus veniam ducimus quod vel inventore, repudiandae tenetur velit saepe cumque nostrum rem reiciendis!
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-3">
+            <h5 class="fw-light mb-3">Contact Us</h5>
+            <div class="d-flex justify-content-start align-items-start my-2">
+              <span class="">
+                <i class="fas fa-map-marked-alt"></i>
+              </span>
+              <span class="fw-light"> 88 Street, Singapore </span>
+            </div>
+            <div class="d-flex justify-content-start align-items-start my-2">
+              <span class="">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="fw-light"> omfw.support@omfw.com </span>
+            </div>
+            <div class="d-flex justify-content-start align-items-start my-2">
+              <span class="">
+                <i class="fas fa-phone-alt"></i>
+              </span>
+              <span class="fw-light"> +65 123 4567 89 </span>
+            </div>
+          </div>
+
+
+          <div class="col-md-3 col-lg-3">
+            <h5 class="fw-light mb-3">Follow Us</h5>
+            <div>
+              <ul class="list-unstyled d-flex">
+                <li>
+                  <a href="" class="text-white text-decoration-none fs-4 me-4"> <i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="" class="text-white text-decoration-none fs-4 me-4"> <i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="" class="text-white text-decoration-none fs-4 me-4"> <i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="" class="text-white text-decoration-none fs-4 me-4"> <i class="fab fa-tiktok"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+    <!-- custom js -->
+    <script src="OMW.js"></script>
+  </body>
+</html>

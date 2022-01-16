@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+/* navbar */
+.navbar {
+  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+.nav-link:hover {
+  color: goldenrod !important;
+}
+nav.item {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  border: 1px solid burlywood;
+}
+.btnsrc {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  border-radius: 60px;
+  background-color: burlywood;
+  color: black;
+  font-weight: 400;
+}
+
+/* button */
+.bg-primary {
+  background-color: burlywood !important;
+}
+.btn:not(.nav-btns button) {
+  background-color: burlywood;
+  color: black;
+  padding: 10px 28px;
+  border-radius: 25px;
+  border: 1px grey;
+}
+.btn:not(.nav.btns button):hover {
+  background-color: burlywood;
+  color: white;
+}
+
+/* header */
+#header {
+  background: url(IMG/hero.jpg) top/cover no-repeat;
+}
+#header h1 {
+  color: rgb(222, 184, 135);
+  letter-spacing: 2px;
+}
+
+/* collection title */
+.title h2::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 50px;
+  background-color: burlywood;
+  left: -20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* collection */
+.collection-list {
+  cursor: pointer;
+}
+.active-filter-btn {
+  background-color: burlywood !important;
+  color: white !important;
+  border-color: burlywood !important;
+}
+.filter-button-group .btn:hover {
+  color: white !important;
+}
+.collection-img img {
+  transition: all 0.3s ease;
+}
+.collection-img:hover img {
+  transform: scale(1.1);
+}
+
+/* modal */
+#gallery-popup .modal-img {
+  width: 100%;
+}
+
+/* blog */
+#offers{
+  background: url(IMG/offers.jpg) center/cover no-repeat;
+}
+#offers .row{
+  min-height: 60vh;
+}
+.offers-content span{
+  font-size: 40px;
+  font-weight: 450;
+  color: whitesmoke!important;
+}
+.offers-content h2{
+  font-size: 60px;
+}
+.offers-content .btn{
+  border-color: transparent!important;
+}
+
+/* about */
+#about video{
+display: block;
+margin: auto;
+}
+
+/* newsletter */
+#newsletter {
+background-color: rgb(248, 232, 213);
+}
+#newsletter p {
+max-width: 600;
+}
+#newsletter .input-group {
+max-width: 500px;
+}
+#newsletter .form-control {
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+}
+
+/* footer */
+footer .brand {
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+footer a{
+    transition: color 0.3s ease;
+}
+footer a:hover{
+    color: burlywood!important;
+}
